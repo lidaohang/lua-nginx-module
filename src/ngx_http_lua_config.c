@@ -117,7 +117,9 @@ ngx_http_lua_conf_get_regex_locations(yajl_gen g, ngx_http_core_loc_conf_t **clc
     "http":{
         "servers":[
             {
-                "server_name":"www.didichuxing.com",
+                "server_name": [
+                    "www.didichuxing.com"
+                ],
                 "port":80,
                 "locations":[
                     "location":"/index",
